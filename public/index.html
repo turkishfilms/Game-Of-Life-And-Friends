@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>lif</title>
+  <script src="p5.min.js"></script>
+  <script src='lifedata.js'></script>
+  <script src="RLEall/x66_half.rle"></script>
+</head>
+
+<body>
+  <p id='h' class="gone" onclick="rs = (rs+1)%rrog.length;rules = parseRules(rrog[rs])">Rule </p>
+  <p id="l">0</p>
+  <p style="background-color: aquamarine;">
+    <span onclick="ranclr(1)">Randomize</span>
+    <span onclick="ranclr(0)">Clear</span>
+    <span onclick="tp = (tp+types.length-1)%types.length; typk = parseRLEData2(types[tp])">+ </span>
+    <span id='t'></span></br>
+    <span onclick="tp = 2"></span>
+  
+  </p>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script> -->
+  <script src="index.js"></script>
+
+</body>
+
+</html>
