@@ -33,7 +33,7 @@ let grid = [],
         Yo = 0,
         conlogv = 0,
         oldParse = 0,
-        structList = fullRLEs
+        structList = rlees
 
 
 let types = structList.slice()
