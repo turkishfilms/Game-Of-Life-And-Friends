@@ -65,7 +65,9 @@ B368/S245
 B3678/S34678
 B37/S23
 B38/S23`
+
 let rrog = ruleog.split('\n') //list
+
 function parseRules(rulestr) {
     let str = rulestr.match(/[BSbs][0-9]*/g)
     let B = str[0].length == 1 ? [] : str[0].split('').splice(1),
