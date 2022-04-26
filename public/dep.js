@@ -199,3 +199,13 @@ function next4() {
             else grid[i][j] = survive(b) ? 1 : 0 //survive or die
     }
 }
+
+/*
+// const lAlpha = Array.from(Array(26)).map((e, i) => i + 97);
+const cAlpha = Array.from(Array(26)).map((e, i) => i + 65);
+const lAlphabet = lAlpha.map((x) => String.fromCharCode(x));
+const cAlphabet = cAlpha.map((x) => String.fromCharCode(x));
+const numerals = Array.from(Array(10).keys())
+const startingChars = numerals.concat(cAlphabet).concat(lAlphabet)
+console.log(startingChars);
+*/
